@@ -1,3 +1,89 @@
 body {
-    background-color: #6ab04c;
+    font-family: "DIN Round OT", serif;
+}
+/* top menu container */
+.containertop {
+    margin: 50px 50px 100px;
+    display: flex;
+}
+.topleft {
+    width: 45%;
+}
+.spaner {
+    color: #aed1e6;
+}
+.topbrand {
+    font-size: 20px;
+    font-style: italic;
+}
+.topmiddle {
+    width: 10%;
+}
+.topright {
+    width: 45%;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+.top1 {
+    width: 33.33%;
+}
+.top2 {
+    border: solid 5px #DE85C2;
+    color: #DE85C2;
+    width: 33.33%;
+}
+.top2 > div {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.top3{
+    width: 33.33%;
+}
+
+/* main container */
+.containermain {
+    margin: 50px 50px 100px;
+    display: flex;
+}
+.mainleft {
+    width: 45%;
+    font-size: 32px;
+}
+.mainmiddle {
+    width: 10%;
+}
+h1 {
+    font-size: 80px;
+}
+.mainright {
+    width: 45%;
+}
+.success {
+    display: flex;
+    gap: 20px;
+}
+.success > div > h1 {
+    font-size: 40px;
+}
+.success > div > p {
+    font-size: 20px;
+}
+.suc1 {
+    width: 33.33%;
+}
+.suc2 {
+    width: 33.33%;
+}
+.suc3 {
+    width: 33.33%;
+}
+.suc1 > h1 {
+    color: #DE85C2;
+}
+.suc2 > h1 {
+    color: #DE85C2;
+}
+.suc3 > h1 {
+    color: #aed1e6;
 }
